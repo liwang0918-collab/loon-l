@@ -1,14 +1,16 @@
 $httpClient.get(“https://www.tiktok.com”, function(error, response, data) {
 
-let result = “未解锁”;
+let result = “❌”;
 
-if (!error && response.status == 200) {
-result = “已解锁”;
+if (!error && response.status === 200) {
+result = “✅”;
 }
 
 $done({
 title: “TikTok”,
-content: result
+content: result,
+icon: “music.note”,
+“icon-color”: “#FF1493”
 });
 
 });
