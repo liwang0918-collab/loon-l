@@ -1,17 +1,17 @@
 #!name=高级节点检测
-#!desc=Netflix/OpenAI/TikTok/IP/UDP 检测
+#!desc=节点检测面板
 #!author=liwang0918
 
 [Script]
 
-IP信息 = type=panel, script-path=https://raw.githubusercontent.com/liwang0918/LoonPanel/main/script/ipinfo.js, update-interval=300
+IP信息 = type=panel,script-path=https://raw.githubusercontent.com/liwang0918/LoonPanel/main/script/ipinfo.js
 
-延迟 = type=panel, script-path=https://raw.githubusercontent.com/liwang0918/LoonPanel/main/script/ping.js, update-interval=300
+延迟 = type=panel,script-path=https://raw.githubusercontent.com/liwang0918/LoonPanel/main/script/ping.js
 
-UDP = type=panel, script-path=https://raw.githubusercontent.com/liwang0918/LoonPanel/main/script/udp.js, update-interval=300
+UDP = type=panel,script-path=https://raw.githubusercontent.com/liwang0918/LoonPanel/main/script/udp.js
 
-OpenAI = type=panel, script-path=https://raw.githubusercontent.com/liwang0918/LoonPanel/main/script/openai.js, update-interval=300
+OpenAI = type=panel,script-path=https://raw.githubusercontent.com/liwang0918/LoonPanel/main/script/openai.js
 
-TikTok = type=panel, script-path=https://raw.githubusercontent.com/liwang0918/LoonPanel/main/script/tiktok.js, update-interval=300
+TikTok = type=panel,script-path=https://raw.githubusercontent.com/liwang0918/LoonPanel/main/script/tiktok.js
 
-Netflix = type=panel, script-path=https://raw.githubusercontent.com/liwang0918/LoonPanel/main/script/netflix.js, update-interval=300
+Netflix = type=panel,script-path=https://raw.githubusercontent.com/liwang0918/LoonPanel/main/script/netflix.js
