@@ -1,14 +1,16 @@
-$httpClient.get(“https://chat.openai.com”, function(error, response, data) {
+$httpClient.get(“https://chat.openai.com/cdn-cgi/trace”, function(error, response, data) {
 
-let result = “未解锁”;
+let result = “❌”;
 
-if (!error && response.status == 200) {
-result = “已解锁”;
+if (!error && response.status === 200) {
+result = “✅”;
 }
 
 $done({
 title: “OpenAI”,
-content: result
+content: result,
+icon: “brain”,
+“icon-color”: “#7B68EE”
 });
 
 });
